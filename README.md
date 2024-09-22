@@ -40,6 +40,6 @@ This project uses environment variables to configure the backend API URL.
 Create a `.env` file in the root directory with the following contents:
 ```
 REACT_APP_BACKEND_IP=https://localhost
-REACT_APP_BACKEND_PORT=7236
+REACT_APP_BACKEND_PORT=5000
 ```
 
