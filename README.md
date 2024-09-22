@@ -33,7 +33,7 @@ npm install
 ```
 ### Start the development server:
 ```
-npm npm start
+npm start
 ```
 ### Environment Variables
 This project uses environment variables to configure the backend API URL. 
