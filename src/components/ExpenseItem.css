@@ -1,0 +1,43 @@
+.expense-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .description {
+    flex: 2;
+  }
+  
+  .input-quantity, .input-price, .input-percentage {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .unit {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .total-price {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .delete-icon {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+  }
+  
+  .delete-icon:hover {
+    color: darkred;
+  }
+  

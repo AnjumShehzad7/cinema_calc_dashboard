@@ -1,0 +1,31 @@
+.expense-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .expense-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: right;
+    margin-top: 20px;
+  }
+  .add-new-expense-text {
+    text-align: center;  /* Centers the text */
+    font-size: 24px;  /* Adjust the size if needed */
+    margin: 20px 0;  /* Adds space above and below the text */
+    font-weight: bold;  /* Makes the text bold */
+  }
